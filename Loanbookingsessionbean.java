@@ -7,6 +7,8 @@ import oracle.search.admin.api.ws.client.Credentials;
 import oracle.search.admin.api.ws.client.ObjectKey;
 import oracle.search.admin.api.ws.client.ObjectOutput;
 import oracle.search.admin.api.ws.client.ObjectInput;
+import oracle.search.admin.api.ws.client.collection;
+
  
 import java.util.List;
 import java.net.URL;
@@ -111,7 +113,7 @@ public class CreateWebSource
  
         System.out.println("Created source group...");
         
-        // 4. Create a schedule for the web source
+        // 4. Create a schedule for the web source clearly 
         String scheduleXML = 
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
 "<search:config productVersion=\"11.1.2.0.0\" xmlns:search=\"http://xmlns.oracle.com/search\">" +
